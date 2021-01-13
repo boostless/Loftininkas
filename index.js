@@ -25,7 +25,7 @@ client.on('message', message =>{ //kaip botas reguoja i zinute
   const commandFile = client.commands.get(command)
   console.log(commandFile)
 
-  if(commandFile) client.commands.get(command).execute(message,args, Discord);
+  if(commandFile) client.commands.get(command).execute(message,args, Discord, client);
 });
 client.login(token);
 
