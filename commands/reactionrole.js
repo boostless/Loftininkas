@@ -4,7 +4,7 @@ module.exports = {
     description: "Embeds",
    async  execute(message, args, Discord, client) {
 
-        const channel = '798639003284406284';// Kanalas kur galesi pareactint
+        const channel = '798678816503103528';// Kanalas kur galesi pareactint
         const siauliaiRole = message.guild.roles.cache.find(role => role.name == 'Šiauliai');
         const kaunasRole = message.guild.roles.cache.find(role => role.name == 'Kaunas');
         const klaipedaRole = message.guild.roles.cache.find(role => role.name == 'Klaipėda');
